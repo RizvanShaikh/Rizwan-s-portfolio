@@ -1,0 +1,31 @@
+body{
+
+	background-color: green;
+	color:white;
+}
+
+.ani{
+	background-color: skyblue;
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+.animate{
+	background-color: white;
+	height: 100px;
+	width: 400px;
+	
+	/*margin-left: 400px;*/
+	margin-top: -50px;
+	margin:0 auto;
+	}
+.btn{
+	margin-top: 300px;
+	margin-left: 650px;
+}
+
+
+/*.animate h1 {
+	text-align: center;
+}*/

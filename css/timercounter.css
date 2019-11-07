@@ -1,0 +1,9 @@
+.timer{
+	background-color: skyblue;
+	font-size: 4em;
+    font-family: 'Righteous', cursive;
+    height: 200px;
+    width: 100%; 
+    text-align: center;
+    margin-top: 200px;
+}

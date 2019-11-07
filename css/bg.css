@@ -1,0 +1,30 @@
+body{
+
+	background:url("bgi.png")
+	no-repeat center center fixed;
+	background-size: cover ; 
+   
+}
+
+div{
+
+	background-color: lightblue;
+}
+
+i{
+	color: black;
+}
+h1  {
+
+	color: rgb(18,184,134); ;
+	text-align: center;
+	/*border:3px solid green;*/
+
+	width: 300px;
+	padding: 20px;
+	margin: 200px auto;
+
+	font-family: 'Sarabun', sans-serif;
+
+}
+

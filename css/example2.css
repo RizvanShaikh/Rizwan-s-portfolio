@@ -1,0 +1,56 @@
+ul {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+   overflow:hidden;
+
+
+}
+
+
+li a{
+	color: white;
+	text-align: center;
+	padding: 15px 18px;
+   display: block;
+   border: solid 2px skyblue;
+   float:left;
+   background-color:rgb(29,161,242);
+ }
+
+ a:hover {
+ 	background-color: pink;
+ }
+
+ .right{
+ 	float: right;
+ }
+
+ .active a{
+ 	background-color: green;
+ }
+
+ .jumbotron{
+ 	text-align: center;
+ }
+   
+/*login page starts here*/
+
+.container{
+	display: inline-block;
+}
+
+.container{
+	text-align: center;
+	margin-top: 100px;
+	display: block;
+	border:solid 2px black;
+	border-radius: 6px;
+	padding: 15px 25px ;	
+	width: 15%;
+	margin-left: 25px;
+}
+
+.grey{
+	background-color: #efefefef;
+}

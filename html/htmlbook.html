@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>The HTML Book</title>
+	<link rel="stylesheet" type="text/css" href="../css/htmlbook.css">
+</head>
+<body>
+	 <!-- CHAPTER:1 , Page:6 -->
+      <p> this is write. <em>you can write this.</em> </p>
+      <p><a href="http://www.Google.com/">Click here to visit Google's Website.</a></p>
+
+      <!-- page:8 this shows that if you hover in GOOGLE link shown in browser it will shows you Google.com is   the world's most popular search engine-->
+      <a href="http://www.Google.com"
+               title="Google.com is the world's most popular search engine"> GOOGLE </a> <br>
+        
+         <!-- it will shows you text box -->
+       <input type="text" required >
+          <input type="text" required="true">   
+          
+          <!-- page:10 -->
+            <!-- if you want paragraph to be a blue background give prperty in css in # -->
+         <p id="acoounts">This paragraph explains the role of the accounts department.</p>
+        <p id="sales">This paragraph explains the role of the sales department.</p>
+        <!-- if you want perticular paragraph in bold write  <b></b> like this -->
+        <p id="acoounts"><b>This paragraph explains the role of the accounts department.</b></p>
+       <!-- if you want perticular paragraph  normal  in html and remov <b></b> tag like this this is called inlin property --> 
+        <p id="acoounts"  style="font-style:normal;"><b>This paragraph explains the role of the accounts department.</b></p>
+
+        <p class="summary">Summary goes here</p>
+         <p id="summary">Summary goes here</p>
+         
+         <!-- you can give font,color etc property in html like this. but better is to give these property in CSS page 11  this is inline property-->  
+         <p style="font-family:arial; color:#FF0000;">Some text.</p>
+         <!-- onother way is this one trough css: -->
+         <p>Some text.</p>
+           <!-- direction=dir  -->
+         <p dir="ltr">Write this text right-to-left!</p>
+         <p dir="rtl">Write this text right-to-left!</p>
+           <!-- through css page 12 -->
+         <!-- <p>Write this text right-to-left!</p> -->
+
+         <p lang="ar">this is paragraph</p>
+
+          <p>Here is a paragraph of text.</p>
+          <p>Here is a second paragraph of text.</p>
+          <p>Here is a third paragraph of text.</p>
+           
+          <pre>
+          Here is a paragraph of text.
+          Here is a second paragraph of text.
+          Here is a third paragraph of text.
+
+           </pre>  
+
+           <h1>Block-Level Elements</h1>
+           <p><strong>Block-level elements</strong> always start on a new line. The
+           <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code> elements will not sit
+            on the same line, whereas the inline elements flow with the rest of the text.</p>
+           <!-- page:26 -->
+            <div class="header">
+                   <h1>EXAMPLE CAFE</h1>
+              <p>Welcome to example cafe. We will be developing this site throughout the book.</p>
+            </div>
+
+            <header>
+           <h1>EXAMPLE CAFE</h1>
+           <p>Welcome to example cafe. We will be developing this site throughout the book.</p>
+            </header>
+
+              <header>
+                 <hgroup>
+                     <h1>EXAMPLE CAFE</h1>
+                     <h2>Serving Home Style Example Markup since 2012</h2>
+
+                 </hgroup>
+               </header>
+
+            <nav>                								
+            <p><a href="recipes.html">Recipes</p>
+            <p><a href="menu.html">Menu</a></p>
+            <p><a href="opening_times.html">Opening Times</a></p>
+            <p><a href-"contact.html">contact</a></p>
+            </nav>
+
+            <section>
+              <h1>Introduction</h1>
+            </section>
+               <section>
+               <h1>Recipes</h1>
+               </section>
+
+                  <section>
+                   <h1>Menu</h1>
+                  </section>
+                      <section>
+                         <h1>Opening Times</h1>
+                      </section>
+                          <section>
+                            <h1>Contact</h1>
+                          </section>
+
+            <article>
+               <h1>Example Cafe, Great Food Delivered with Superior Markup and Style</h1>
+             <p>It's rare to find a restaurant that combines as many exemplary elements as the example café. From the superior markup of the café's website to the delicious dishes served with care nothing about the Example Café is left to chance.</p>
+            </article>
+
+            <!-- <hr> tag is used to  show line e.g pag 28 -->
+           <h1>HTML</h1>
+           <p>HTML is a language for describing web pages.</p>
+                 <hr>
+           <h1>CSS</h1>
+           <p>CSS defines how to display HTML elements.</p>
+               <!-- use of <blockquote></blockquote> -->
+           <p>The following description of the blockquote element is taken from the WHATWG site:</p>
+           <blockquote> The blockquote element represents a section that is quoted from another source. Content inside a blockquote must be quoted from another source, whose address, if it has one, may be cited in the cite </blockquote>
+             <!-- use of <aside></aside> -->
+           <article>
+            <h1>Example Cafe, Great Food Delivered with Superior Markup and Style</h1>
+            <p>It's rare to find a restaurant that combines as many exemplary elements as the example café. From the superior markup of the café's website to the delicious dishes served with care nothing about the Example Café is left to chance.</p>
+            <aside> It's rare to find a restaurant that combines as many exemplary elements as the example café.</aside>
+           </article> 
+
+           <footer>
+               <address>For more information contact <a href="mailto:examplecafe@example.com">Example Café via email</address>
+              <p>All content copyright Example Café 2012</p></a>
+           </footer>
+           <!-- unorder list -->
+           <ul>
+              <li>Bullet point number one</li>
+              <li>Bullet point number two</li>
+              <li>Bullet point number three</li>
+            </ul>
+            <!-- order list -->
+            <ol>
+               <li>Point number one</li>
+               <li>Point number two</li>
+               <li>Point number three</li>
+            </ol>
+
+            <ol start="10">
+               <li>Point number one</li>
+               <li>Point number two</li>
+               <li>Point number three</li>
+            </ol>
+
+           	<ol reversed>
+                <li>Point number one</li>
+                <li>Point number two</li>
+                <li>Point number three</li>
+            </ol>
+
+            <ol type="a">
+               <li>Point number one</li>
+               <li>Point number two</li>
+               <li>Point number three</li>
+            </ol>
+              
+              <!-- defination list <dl></dl> -->
+            <dl>
+              <dt>Unordered List</dt>
+              <dd>A list of bullet points.</dd>
+              <dt>Ordered List</dt>
+              <dd>An ordered list of points, such as a numbered set of steps.</dd>
+              <dt>Definition List</dt>
+              <dd>A list of terms and definitions.</dd>
+              </dl>
+           
+            <p>The following word uses a <b>bold</b> typeface.</p>
+            <p>The following word uses an <i>italic</i> typeface.</p>
+
+            <small id="copyright">© Rob Larsen 2012</small>
+            <p>This chapter is taken from <cite>Beginning Web Development</cite>.</p>
+               <!-- <q></q>  for quote -->
+            <p>As Dylan Thomas said, <q>Somebody's boring me. I think it's me</q>.</p>
+
+            <p>This book teaches you how to mark up your documents for the Web using <dfn>HTML</dfn>.</p>
+                   <!-- superscrit -->
+            <p>Written on the 31<sup>st</sup> February.</p>
+                   <!-- subscript -->
+            <p>The EPR paradox<sub>2</sub> was devised by Einstein, Podolsky, and Rosen.</p>
+            <p> This book focuses on the latest version of the language,<mark>HTML5</mark>. There are two other XHTML is still very popular in some applications so important differences between it and <mark>HTML5</mark> will be called out in the text. </p>
+
+            <!-- table starts here -->
+            <table border="1">
+                    <tr>
+                      <td>Row 1, Column 1</td>
+                      <td>Row 1, Column 2</td>
+                    </tr>
+                        <tr>
+                          <td>Row 2, Column 1</td>
+                          <td>Row 2, Column 2</td>
+                         </tr>
+             </table>
+
+
+             <table border="1">
+                         <tr>
+                     <th></th>
+<th>Outgoings ($)</th>
+<th>Receipts ($)</th>
+<th>Profit ($)</th>
+</tr>
+<tr>
+<th>Quarter 1 (Jan-Mar)</th>
+<td>11200.00</td>
+<td>21800.00</td>
+<td><b>10600.00</b></td>
+</tr>
+<tr>
+<th>Quarter 2 (Apr-Jun)</th>
+<td>11700.00</td>
+<td>22500.00</td>
+<td><b>10800.00</b></td>
+</tr>
+<tr>
+<th>Quarter 3 (Jul - Sep)</th>
+<td>11650.00</td>
+<td>22100.00</td>
+<td><b>10450.00</b></td>
+
+</tr>
+           
+      <table>
+<caption> Opening hours for the Example Cafe</caption>
+<tr>
+
+	<table>
+<thead>
+<tr>
+<th>Transaction date</th>
+<th>Payment type and details</th>
+<th>Paid out</th>
+<th>Paid in</th>
+<th>Balance</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td></td>
+<td></td>
+<td>$1970.27</td>
+<td>$2450.00</td>
+<td>$8940.88</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>12 Jun 12</td>
+<td>Amazon.com</td>
+<td>$49.99</td>
+<td></td>
+<td>$8411.16</td>
+</tr>
+<tr>
+<td>13 Jun 12</td>
+<td>Total</td>
+<td>$60.00</td>
+<td></td>
+<td>$8351.16</td>
+</tr>
+<tr>
+<td>14 Jun 12</td>
+<td>Whole Foods</td>
+<td>$75.28</td>
+<td></td>
+<td>$8275.88</td>
+</tr>
+<tr>
+<td>14 Jun 12</td>
+<td>Visa Payment</td>
+<td>$350.00</td>
+<td></td>
+<td>$7925.88</td>
+</tr>
+<tr>
+<td>15 Jun 12</td>
+<td>Cheque 122501</td>
+<td></td>
+                 
+<form  name="frmDays">
+<select size="4" name="selDay">
+<option value="Mon">Monday</option>
+<option value="Tue">Tuesday</option>
+<option value="Wed">Wednesday</option>
+<option value="Thu">Thursday</option>
+<option value="Fri">Friday</option>
+<option value="Sat">Saturday</option>
+<option value="Sun">Sunday</option>
+</select>
+<br><br><input type="submit" value="Submit">
+</form>
+         
+         <form action="http://www.example.org/info.aspx" method="get" name="frmInfo">
+Please select the product you are interested in:<br>
+<select name="selInformation">
+<optgroup label="Hardware">
+<option value="Desktop">Desktop computers</option>
+<option value="Laptop">Laptop computers</option>
+</optgroup>
+<optgroup label="Software">
+<option value="OfficeSoftware">Office software</option>
+<option value="Games">Games</option>
+</optgroup>
+<optgroup label="Peripherals">
+<option value="Monitors">Monitors</option>
+<option value="InputDevices">Input Devices</option>
+<option value="Storage">Storage</option>
+</optgroup>
+</select>
+<p><input type="submit" value="Submit"></p>
+</form>
+
+</body>
+</html>
+
+
+
+

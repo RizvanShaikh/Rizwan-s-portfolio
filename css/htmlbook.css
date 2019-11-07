@@ -1,0 +1,34 @@
+   /*page:10*/
+   /*this is for id attribute*/
+#acoounts {
+ background-color: skyblue;
+ font-style: italic;
+}
+
+/*this is for the class attribite*/
+.summary{
+	background-color: grey;
+}
+
+#summary{
+	background-color: yellow;
+}
+ /*page 11:
+p{
+	font-family:arial;
+	 color:#FF6633;
+}	
+ */
+/*page 12
+ p.rtl {
+  direction: rtl;
+}
+*/
+/*page 26*/
+.header{
+	background-color: #dddddd;
+}
+
+
+
+   

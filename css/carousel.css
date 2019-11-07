@@ -1,0 +1,60 @@
+.container{
+	padding-bottom: 25px;
+}
+
+.carousel-inner{
+	height: 500px;
+   width: 1000px;
+}
+
+.carousel .item{
+          height: 500px;
+
+}
+
+.carousel-inner > .carousel-item > img {
+	position:absolute;
+	height: 500px;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.carousel-caption h1 p {
+	z-index: 10;
+}
+
+
+
+.col-md-9 {
+    
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-top: 5%;
+    padding-left: 30%;
+}
+
+.container-iim{
+	padding-top: 25px;
+    
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 29px;
+    margin-left: -51px;
+}
+
+.container-hand{
+	padding-bottom: 10px;
+}
+
+.rizwan{
+	padding-left: 800px;
+	padding-top: 80px;
+}

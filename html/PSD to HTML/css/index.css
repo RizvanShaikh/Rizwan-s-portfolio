@@ -1,0 +1,444 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*=========================================
+|      |       |  section hero 1 css
+==========================================*/
+#hero {
+    background: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)),
+        url("../image/images/bg-img.png") no-repeat center center fixed;
+    /* background-color: grey;*/
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+* {
+    /* by applying thos no defult margin and pdding apply to it*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'HalveticaNeue-Thin';
+    src: url('HalveticaNeue-Thin.otf') format('opentype');
+}
+
+/*nav bar*/
+.align-right {
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    /*border-bottom: 4px solid white;*/
+    padding-bottom: 3px transparent;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.1s;
+}
+
+/*----------------------------*/
+#hero h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 90px;
+    position: relative;
+}
+
+.imgs {
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.iphone {
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
+
+.cta-info {
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+}
+
+#hero p {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HalveticaNeue-Thin';
+    color: white;
+    margin-bottom: 55px;
+}
+
+.cta-button {
+    padding: 23px 35px;
+    color: white;
+    background-color: #282828;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.cta-button:hover {
+    background-color: #383737;
+    transition: 0.3s;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+/*======================================
+|       |     |  section 2 appfeatures
+ ========================================*/
+ #app-features .container {
+    text-align: center;
+    padding: 60px 20px; 
+ }
+ #app-features h2 {
+    color: #8a8a8a;
+    margin-bottom: 40px;
+ }
+ .p-features {
+   font-size: 22px;
+   line-height: 28px;
+   padding: 0px 130px;   
+ }
+ .col-4-app {
+    width: 33.33%;
+    float: left;
+    padding: 0px 45px;  
+ }
+ .col-4-app p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #646464;
+ }
+  /*if we use float in child element we should use over flow hidden in a parent element*/   
+ .row {
+    overflow: hidden;
+    margin-top: 50px;
+ }
+ .row h3 {
+     text-transform: uppercase;
+     font-size: 24px;
+     font-weight: 700;
+     margin: 30px 0px;
+ } 
+ .row p {
+
+ }  
+
+/*======================================
+|       |     |  section 3 nose
+ ========================================*/
+ #nose {
+    background: url("../image/images/lady.png")
+    no-repeat center center;
+    background-size: cover;
+   /* background: #dbded7;*/ 
+}
+.download-info {
+    width: 50%;
+    padding: 200px 0px; 
+}
+#nose h2 {
+     margin-bottom: 42px;
+}
+.nose-p {
+    font-size: 10px;
+    line-height: 30px;
+   /* font-family: 'HalveticaNeue-Thin';
+*/
+   padding-bottom: 50px;
+}
+.download-btn {
+    padding: 15px;
+    background: #d9332d;
+    border-radius: 50px; 
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+.download-btn:hover {
+    background: #c33934; 
+    transition: 0.3s;
+}
+.raddish {
+    color: #f55150;
+} 
+span {
+    color: white;
+}
+
+/*---------footer---------------*/
+footer {
+    background: #2e2e38;
+}
+footer .container {
+    padding-bottom: 120px 20px;
+}
+footer h4 {
+    font-size: 20px;
+}
+.ul-posts li {
+   font-size: 15px;
+   line-height: 20px;
+   margin-bottom: 50px;
+   padding-left: 0px;
+}
+.col-4-footer {
+    width: 33.33%;
+    float: left;
+    margin-top: 77px;
+    color: white;
+    padding: 30px;
+}
+.ul-posts, .ul-twitter {
+    margin-top: 25px;
+}
+.block {
+    display: block;
+}
+.p-about {
+    font-size: 15px
+    font-style: italic;
+    margin-top: 15px;
+}
+.ul-twitter li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+small {
+    font-size: 11px;
+}
+/*-----------section copy right---------------*/
+#copy-right .container {
+    padding: 40px;
+    text-align: center;
+}
+#copy-right {
+    background: #d7ded7
+}
+.inline {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.cr,.me {
+    margin-right: 40px; 
+}
+.fb,.tw {
+    margin-right: 40px;
+}
+.cr:after,
+.me:after {
+   content: "";
+   border: 1px solid #555555;
+   margin-left: 35px;
+ } 
+
+ /*----Animation-------------*/
+ /*.imgs {
+    position: relative;
+ }*/
+ .iphone-on {
+    position: absolute;
+    right: 172px;
+    top: 102px;
+    width: 52%;
+    z-index: 9999;
+ }
+    
+.iphone-btn {
+    position: absolute;
+    right: 60px; 
+}
+
+.iphone {
+    width: 81%;
+    right: -19px;
+}
+/*ipnone */
+.js-wp-2 {
+    opacity: 0;
+}
+.js-wp-2.animated {
+    opacity: 1;
+}
+/*screen*/
+.js-wp-3 {
+    opacity: 0;
+    animation-delay: 3.2s;
+}
+.js-wp-3.animated {
+    opacity: 1;
+}

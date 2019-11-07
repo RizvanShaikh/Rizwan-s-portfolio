@@ -1,0 +1,31 @@
+a:root {
+    --blue: #009688;
+}
+.bg-light {
+    background-color: #2C3E50!important;
+}
+/*home color*/
+ .navbar-light .navbar-brand {
+    color: white;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+
+/*nav bar letter of p to c*/
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*for the p to c*/
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left:  860px;
+    margin-bottom: 0;
+    list-style: none;
+}

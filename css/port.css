@@ -1,0 +1,31 @@
+
+ul{
+    list-style-type:none; 
+    padding: 0;
+    margin: 0;
+	overflow: hidden;
+    background-color:#2C3E50!important;
+}
+
+li a{
+
+	display: block;
+	/*border: 2px solid black;*/
+	padding: 15px 18px;
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.6em;
+
+}
+
+.right{
+	float: right;
+}
+
+a:hover{
+	color: #18BC9C;
+	text-decoration: none;
+}
+

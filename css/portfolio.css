@@ -1,0 +1,287 @@
+
+/*==============================================
+ colors: 
+         bgc=#18BC9C
+         dark blue = #2C3E50;
+         grey= #212226
+         whitesmoke= #f4f4f4
+         white= #fffff
+         black= #000000
+==============================================*/
+/*==============================================
+|     |      | HTML, Body apply to entire body
+==============================================*/
+html,body{
+	height: 100%;
+}
+section{ 
+    overflow: hidden;
+ }
+ /*==============================================
+|     |      | Navigation bar css
+==============================================*/	
+.navbar {
+	padding: 35px 0 25px 0;
+	-webkit-transition: all 300ms linear; 
+	transition: all 300ms linear;
+	background-color: #2C3E50; 
+}
+.site-nav-wrapper {
+	padding: 0 85px;
+}
+.navbar-brand {
+	padding: 13px 15px;
+}
+ul.navbar-nav > li > a {
+	font-family: "Railway",sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+  /* it will remove  default white color of botstrap*/
+    background: none;
+    /*background-color:#18BC9C;
+    display: block;
+    border-radius: 5px;*/
+    color: #18BC9C;
+}
+/*white navigation bar*/ 
+.white-nav-top {
+   background: #2C3E50;
+   padding: 10px 0;
+   -webkit-box-shadow: 0 8px 6px -9px #999;
+   box-shadow: 0 8px 6px -9px #999;
+   z-index: 2;
+}
+.white-nav-top ul.navbar-nav > li > a {
+	color: white;
+}  
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus {
+    color:#18BC9C;
+
+}
+
+/*scroll spy active state this is class of botstrap class(scroll spy) which shows active class
+in browser data-spy data-target data-offset it is a bootstrap class*/
+.white-nav-top ul.navbar-nav > li.active > a {
+	color: white;
+	font-weight: 700;
+	 background-color:#18BC9C;
+    display: block;
+    border-radius: 5px;
+
+} 
+/*========================================
+|     |      |  section home
+========================================*/
+#home {
+	background-color: #18BC9C;
+}
+
+.my-img img{
+	margin-left: 40%;
+	margin-top: 16%;
+}
+.my-img h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 4.75em;
+	font-weight: 700;
+    line-height: 125px;
+
+}
+
+.my-img h2 {
+	text-align: center;
+	color: white;
+	font-size: 3em;
+    margin: 30px 0px;
+}
+.home-hr {
+	width : 50%;
+	height: 3px;
+	background-color: white;
+}
+/*==============================================
+|     |      | portfoio section2
+==============================================*/
+.portfolio-content h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2C3E50;
+  font-size: 4em;
+  font-weight: 600;
+}
+.portfolio-hr {
+	height: 5px;
+	width: 50%;
+   background-color: #2C3E50;
+}
+.portfolio-a-hr {
+	height: 1px;
+	background-color: #D1D9E1;
+
+}
+.portfolio-link{
+   width: 1140;
+   height: 67;
+   text-align: center;
+   margin-top: 36px;	
+}
+.portfolio-link a{
+	font-size: 2.3em;
+	font-weight: 600;
+	color: #18bc9c;
+}
+
+/*==============================================
+|     |      | about section3
+==============================================*/
+#about {
+	background-color: #18BC9C; 
+}
+.about-h2{
+	color: white;
+	text-align: center;
+	
+	font-size: 3em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#about p{
+	color: white;
+	line-height: 39px;
+}
+.about-hr {
+	height: 1.5px;
+	width: 50%;
+	background-color: white;
+}
+/*==============================================
+|     |      | contact section3
+==============================================*/
+.contact-h1 {
+	 text-transform: uppercase;
+  text-align: center;
+  color: #2C3E50;
+  font-size: 3.3em;
+  font-weight: 600;
+}
+.contact-hr {
+	height: 4px;
+	width: 50%;
+	background-color: #2C3E50;
+}
+.jumbotron  {
+	margin-top: 20px;
+	padding: 90px 0px;
+	padding-bottom: 267px;
+	margin-bottom: 40px;
+}
+.jumbotron h1 {
+    font-size: 55px;
+	  }
+
+/*==============================================
+|     |      | social 
+==============================================*/
+.social {
+	background-color: #2C3E50;; 
+}
+.social p{
+	color: white;
+	font-size: 25px;
+	font-weight: 500;
+}
+ul.social-list li a {
+    color: #fff;
+    border: 4px solid #fff;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+
+}
+ul.social-list li a:hover {
+	color: #fff;
+	border-color: transparent;
+}  
+/*------*/
+/*ul.social-list{
+	padding: 0px;
+	margin-top: 20px;
+}*/
+ul.social-list li{
+	display: inline-block;
+	padding: 0px;
+} 
+ul.social-list li a {
+	border:2px solid #fff; 
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	line-height: 55px;
+	border-radius: 50%;
+	margin: 5px; 
+	/*transition: all 400ms linear;*/
+}
+/*-------ntn child css-----------------------------*/
+ul.social-list li:nth-child(1) a:hover {
+      background: #3b5998;
+      border-color: transparent;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear;
+}
+ul.social-list li:nth-child(2) a:hover {
+      background: #00aced;
+      border-color: transparent;
+      transition: all 400ms linear;
+}
+ul.social-list li:nth-child(3) a:hover {
+      background: #dd4b39;
+      border-color: transparent;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear;
+}         
+/*==============================================
+|     |      | content boxes
+==============================================*/
+.content-box-lg{
+	padding: 120px 0px; 
+}
+.content-box-md{
+	padding: 100px 0px;
+}
+.content-box-sm{
+	padding: 90px 0px; 
+}
+/*------------------------------------------*/
+footer {
+	background-color: #1A252F;
+		padding: 25px 0px;
+	}
+footer small{
+	color:white;
+	font-size: 15px;
+}
+.btn-back-to-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 3px 15px;
+	border-radius: 4px;
+	font-size: 22px;
+	display: none; 
+}
+.btn-blue{
+    color: #fff;
+    border:1px solid #fff; 
+    background-color: #18BC9C;
+    /*#18BC9C#18BC9C#18BC9C*/
+}	
+	

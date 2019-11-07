@@ -1,0 +1,11 @@
+
+
+#clock{
+	width: 100%;
+	padding: 40px;
+	background-color: skyblue;
+	margin-top: 200px;
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 3em;
+}
